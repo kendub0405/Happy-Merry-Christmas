@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>❅ Snowfall, Happy Merry Christmas</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    /* Estilos adicionales para el texto encima de la animación */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+    
+    /* Contenedor de texto */
+    .message-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      z-index: 10;
+    }
+
+    /* Texto grande */
+    .big-text {
+      font-size: 50px;
+      font-weight: bold;
+      color: #7E99A3;
+    }
+
+    /* Texto pequeño */
+    .small-text {
+      font-size: 20px;
+      color: #FFFDF0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Fondo de nubes y nieve -->
+  <div class="clouds-bg"></div>
+  <canvas id="snow-canvas-1"></canvas>
+  <canvas id="snow-canvas-2"></canvas>
+  <canvas id="snow-canvas-3"></canvas>
+  <canvas id="snow-canvas-4"></canvas>
+  <canvas id="snow-canvas-5"></canvas>
+  <canvas id="snow-canvas-6"></canvas>
+
+  <!-- Contenedor de mensaje -->
+  <div class="message-container">
+    <div class="big-text">¡¡Happy Merry Christmas Sweetheart!!</div>
+    <div class="small-text">
+      Que tengas una bella noche llena de bendiciones y muchísimo amor en compañia de tu familia <br>
+      !Saludos a mis suegros!
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
